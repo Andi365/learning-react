@@ -5,47 +5,6 @@ import thankyou from './images/thank-you.svg';
 import '../App.css'
 import './rating.css'
 
-// class RatingComponent extends React.Component {
-//     rating: Array<string> = ["1", "2", "3", "4", "5"];
-//     isSubmitted: boolean = false;
-
-//     constructor(props: {} | Readonly<{}>) {
-//         super(props);
-//         this.state = {isSubmitted: false}
-//     }
-
-//     handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-//         event.preventDefault();
-//         console.log(event);
-        
-//         this.state = {
-//             isSubmitted: false
-//         }
-//     }
-
-//     render() {
-//         return (
-//             <form className='flex' action="" onSubmit={this.handleSubmit}>
-//                 {isSubmitted ? <div>asd</div> : <div className="text-left bg-dark-blue m-auto p-6 w-3/5 min-h-min rounded-xl">
-//                 <div className='bg-dark-blue w-10 h-10 flex items-center justify-center rounded-full'>
-//                     <img src={iconstar} className="w-4 h-4" alt="" />
-//                 </div>
-//                 <h1 className='text-3xl text-white py-4'>How did we do?</h1>
-//                 <p className='text-md text-light-gray'>Please let us know how we did with your support request. All feedback is appreciated 
-//           to help us improve our offering!</p>
-//                 <ol className='flex w-full flex-auto justify-between py-4'>
-//                     {this.rating.map((number) => (
-//                         <p className='text-light-gray bg-slate-800 w-12 h-12 rounded-full flex items-center justify-center'>{number}</p>
-//                     ))}
-//                 </ol>
-//                 <button className='flex flex-auto w-full bg-submit-orange rounded-3xl justify-center mb-4' type="submit">SUBMIT</button>
-//               </div>}
-              
-//             </form>
-//         )
-//     }
-// }
-
 function RatingComponent() {
     const [submitted, setSubmitted] = useState<boolean>()
     const [rating, setRating] = useState<string>()
