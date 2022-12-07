@@ -1,0 +1,8 @@
+
+    .input-primary {
+        @apply placeholder:text-gray-300 focus:ring-light-grayish-violet rounded-lg border-gray-300 shadow-sm text-black;
+    }
+
+    .label-primary {
+        @apply inline-block mb-1 uppercase text-very-dark-violet text-sm font-medium inline-block mb-1 uppercase text-very-dark-violet text-sm font-medium;
+    }
